@@ -87,7 +87,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 
 3. Launch the notebook:
 ```bash
-jupyter notebook obazzi_magaddi.ipynb
+jupyter notebook Predicting_airline_passenger_satisfaction.ipynb
 ```
 
 ##  License
