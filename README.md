@@ -1,4 +1,4 @@
-# ✈️ Airline Passenger Satisfaction — ML Classification Project
+# Airline Passenger Satisfaction — ML Classification Project
 
 > Predicting whether airline passengers are satisfied or not, using 6 machine learning models.
 
@@ -6,14 +6,14 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project aims to classify airline passenger satisfaction using a real-world dataset from Kaggle.
 We trained, tuned, and compared 6 classification models to find the best performer.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** [Kaggle — Airline Passenger Satisfaction](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
 - **Size:** 129,880 passengers · 25 features
@@ -29,18 +29,18 @@ We trained, tuned, and compared 6 classification models to find the best perform
 
 ---
 
-## 🤖 Models & Results
+##  Models & Results
 
 | Model | Accuracy | Notes |
 |---|---|---|
-| 🏆 Random Forest | **95%** | Best model — GridSearchCV (depth=25, 200 trees) |
+|  Random Forest | **95%** | Best model — GridSearchCV (depth=25, 200 trees) |
 | KNN | **94%** | Best k=11, tuned with GridSearchCV |
 | SVM | **94%** | RBF kernel, C=10 |
 | Decision Tree | **90%** | criterion=entropy |
 | Naive Bayes | **89%** | CategoricalNB variant |
 | Logistic Regression | **87%** | max_iter=1000 |
 
-### 🏆 Best Model — Random Forest
+###  Best Model — Random Forest
 ```
               precision    recall  f1-score
 Not Satisfied    0.95      0.97      0.96
@@ -50,7 +50,7 @@ Accuracy                             0.95
 
 ---
 
-## 🔧 Methodology
+## Methodology
 
 1. **Data Cleaning** — Imputed missing values in `Arrival Delay in Minutes` with the mean
 2. **Encoding** — OrdinalEncoder for `Class` and `satisfaction`; One-Hot Encoding for `Gender`, `Customer Type`, `Type of Travel`
@@ -61,10 +61,10 @@ Accuracy                             0.95
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-├── obazzi_magaddi.ipynb   # Main notebook (full pipeline)
+├── Predicting_airline_passenger_satisfaction.ipynb   # Main notebook (full pipeline)
 ├── train.csv              # Training data
 ├── test.csv               # Test data
 └── README.md
@@ -72,7 +72,7 @@ Accuracy                             0.95
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Clone the repository:
 ```bash
@@ -90,17 +90,5 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 jupyter notebook obazzi_magaddi.ipynb
 ```
 
----
-
-## 👥 Authors
-
-| Name | GitHub |
-|---|---|
-| Obazzi | [@your-username](https://github.com/your-username) |
-| Magaddi | [@teammate-username](https://github.com/teammate-username) |
-
----
-
-## 📄 License
-
+##  License
 This project is for educational purposes.
