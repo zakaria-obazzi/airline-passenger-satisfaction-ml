@@ -74,18 +74,12 @@ Accuracy                             0.95
 
 ##  How to Run
 
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-```
-
-2. Install dependencies:
+1. Install dependencies:
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 ```
 
-3. Launch the notebook:
+2. Launch the notebook:
 ```bash
 jupyter notebook Predicting_airline_passenger_satisfaction.ipynb
 ```
